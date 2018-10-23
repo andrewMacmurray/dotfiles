@@ -8,18 +8,13 @@ call vundle#begin()
 Plugin 'crusoexia/vim-monokai'
 
 " General
-Plugin 'vim-airline/vim-airline'
 Plugin 'w0rp/ale'
+Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-" JavaScript 
-Plugin 'pangloss/vim-javascript'
-Plugin 'MaxMEllon/vim-jsx-pretty'
 
 call vundle#end()       
 filetype plugin indent on
