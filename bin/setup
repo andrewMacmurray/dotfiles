@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+# Copy files
+cp ./.vimrc ~/.vimrc
+cp ./.tmux.conf ~/.tmux.conf
+
+# Install Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# Install Vundle plugins
+vim ~/.vimrc -c PluginInstall
