@@ -1,10 +1,21 @@
 #! /usr/bin/env bash
 
+# Install Zsh
+echo "Installing ZSH"
+curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+
+# Install Brew
+echo "Installing Brew"
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+
 # Copy files
+echo "Copying Config"
 cp ./.vimrc ~/.vimrc
 cp ./.tmux.conf ~/.tmux.conf
+cat ./.zshrc >> ~/.zshrc
 
 # Install Vundle
+echo "Installing Vundle"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install Vundle plugins
