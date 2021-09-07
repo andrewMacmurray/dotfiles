@@ -19,6 +19,9 @@ Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 call vundle#end()       
 filetype plugin indent on
 
+" Yank to System Clipboard
+set clipboard=unnamed
+
 syntax on
 colorscheme monokai
 set number
