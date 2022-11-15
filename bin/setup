@@ -9,4 +9,4 @@ echo "Installing Vundle"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install Vundle plugins
-vim ~/.vimrc -c PluginInstall
+vim ~/.vimrc -c PluginInstall +qall
