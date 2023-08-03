@@ -1,3 +1,4 @@
+# Config for barebones machines (i.e. plugin support is ropey)
 set nocompatible
 filetype off
 
