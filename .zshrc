@@ -8,5 +8,10 @@ alias tconf="vim ~/.tmux.conf"
 alias npmd="npm run dev"
 alias gph="git push origin HEAD -u"
 
+# Functions
+function uuid() {
+  uuidgen | awk '{print tolower($0)}'
+}
+
 # Brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
